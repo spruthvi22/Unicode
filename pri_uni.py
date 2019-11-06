@@ -1,9 +1,9 @@
 """
 Author: Pruthvi Suryadevara
 Email:  pruthvi.suryadevara@tifr.res.in
-Simple code to create list of Unicode using list comprehension
+Simple code to create list of Unicode using map class
 
 """
 s='mumbai'
-uni=[ord(i) for i in s]
+uni=list(map(ord,s))
 print(uni)
