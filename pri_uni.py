@@ -1,9 +1,11 @@
 """
 Author: Pruthvi Suryadevara
 Email:  pruthvi.suryadevara@tifr.res.in
-Simple code to print Unicode of a string
+Simple code to print sum of Unicode of string
 
 """
 s='mumbai'
+sum=0
 for i in s:
-    print(i,'=',ord(i))
+    sum=sum+ord(i)
+print(sum)
