@@ -1,11 +1,11 @@
 """
 Author: Pruthvi Suryadevara
 Email:  pruthvi.suryadevara@tifr.res.in
-Simple code to print sum of Unicode of string
+Simple code to create list of Unicode using list methods
 
 """
 s='mumbai'
-sum=0
+uni=[]
 for i in s:
-    sum=sum+ord(i)
-print(sum)
+    uni.append(ord(i))
+print(uni)
